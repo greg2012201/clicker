@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* pasuje wykonać reset buttonów też */
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+main {
+
+    max-width: 411px;
+    /* max-height: 70vh; */
+    /* margin: 117px auto; */
+    margin: 10vh auto;
+    color: #685F6B;
+
+}
+
+h1 {
+
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+button {}
+
+.counter {
+
+    margin: 15vh auto;
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 10px;
+}
+
+.clickMe {
+
+    display: block;
+    margin: auto;
+    /* height: 73px; */
+    /* width: 306px; */
+    width: 75%;
+    padding: 20px;
+    background-color: #E8D4EE;
+    border-radius: 37px;
+    border: none;
+    font-size: 3.5rem;
+    line-height: 41px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #685F6B;
+}
+
+footer {
+    margin: 0 auto;
+    max-width: 411px;
+    /*   max-height: 20vh; */
+}
+
+.minus {
+    float: left;
+    margin: 0 0 0 51px;
+
+    display: block;
+    border-radius: 37px;
+    background-color: #E8D4EE;
+    border: none;
+    width: 44px;
+    height: 46px;
+    left: 51.375px;
+    font-size: 3rem;
+    color: #685F6B;
+
+}
+
+.reset {
+    position: absolute;
+    display: block;
+    float: left;
+    margin-left: 260px;
+    width: 97px;
+    height: 46px;
+    border: none;
+    background: #E8D4EE;
+    border-radius: 37px;
+    text-transform: uppercase;
+}
+
+.clearfix {
+    content: '';
+    clear: both;
+    display: block;
+
+}
