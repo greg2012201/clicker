@@ -48,7 +48,7 @@ button {}
     margin: auto;
     /* height: 73px; */
     /* width: 306px; */
-    width: 75%;
+    width: 306px;
     padding: 20px;
     background-color: #E8D4EE;
     border-radius: 37px;
@@ -80,7 +80,7 @@ footer {
     border: none;
     width: 44px;
     height: 46px;
-    left: 51.375px;
+    left: 51px;
     font-size: 3rem;
     color: #685F6B;
     transition: .2s;
