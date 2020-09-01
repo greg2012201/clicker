@@ -32,6 +32,10 @@ h1 {
 
 }
 
+p {
+    transition: 0.2s;
+}
+
 button {}
 
 .counter {
